@@ -1,0 +1,12 @@
+{
+  "footer": {
+    "copyright": "W Punto de la Moda. All rights reserved.",
+    "created_by": "Created by ",
+    "developer": "Name"
+  },
+  "navbar": {
+    "button": {
+      "back": "Back"
+    }
+  }
+}

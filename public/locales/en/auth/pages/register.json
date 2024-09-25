@@ -1,0 +1,62 @@
+{
+  "title": "Register",
+  "description": "Use your email to create new account...",
+  "dialog": {
+    "success": {
+      "title": "Account successfully created",
+      "description": "<p>   Hello, your account has been created and just needs to be activated. Please check your email inbox or spam folder for an email from <b>\"W Punto de la Moda\"</b> with the subject <b>\"Account Activation\"</b>. Follow the instructions in the email to activate your account. </p>",
+      "btnOk": "Continue"
+    },
+    "error": {
+      "title": "Error creating account",
+      "description": "",
+      "btnOk": "OK"
+    }
+  },
+  "field": {
+    "first_name": {
+      "label": "First Name",
+      "placeholder": "First Name",
+      "error": ""
+    },
+    "last_name": {
+      "label": "Last Name",
+      "placeholder": "Last Name"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "Enter your email"
+    },
+    "password": {
+      "label": "Password",
+      "placeholder": "Enter your password"
+    },
+    "confirm_password": {
+      "label": "Password Confirmation",
+      "placeholder": "Password Confirmation"
+    },
+    "terms": {
+      "label": "Password Confirmation",
+      "placeholder": "Terms of Service and Privacy",
+      "prefix": "By Signing up, you agree to our",
+      "terms_service": "Terms of Service",
+      "and": "and",
+      "privacy_policy": "Privacy Policy"
+    }
+  },
+  "button": {
+    "register": "Create Account",
+    "google": "Sign in with Google",
+    "send": "Sending..."
+  },
+  "label": {
+    "login": "have account?"
+  },
+  "link": {
+    "login": "Login",
+    "forgot_password": "forgot password?"
+  },
+  "other": {
+    "divider": "OR"
+  }
+}

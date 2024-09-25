@@ -1,0 +1,64 @@
+{
+  "errors": {
+    "errNetwork": "Network Error",
+    "errRegister": "Registration failed, please try again",
+    "errLogin": "Unable to login, please try again later"
+  },
+  "auth": {
+    "login": {
+      "title": "Login",
+      "description": "Enter your email below to login to your account",
+      "email": {
+        "label": "Email",
+        "placeholder": "Enter your email"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Enter your password"
+      },
+      "button": "Login",
+      "button_google": "Sign in with Google",
+      "label_register": "don't have account?",
+      "link_register": "Register",
+      "link_forgot_pass": "forgot password",
+      "divider": "or"
+    },
+    "register": {},
+    "forgot": {}
+  },
+  "main": {
+    "sidebar": {
+      "project": "Project",
+      "title": "Name of the project."
+    },
+    "statusbar": {
+      "statusbar_empty": "Empty! No entries added yet.",
+      "statusbar_ok": "Ok."
+    },
+    "navbar": {
+      "home": "Home",
+      "reservations": "Reservations",
+      "services": "Services",
+      "online-store": "Online Store",
+      "magazine": "Magazine",
+      "contact": "Contact"
+    }
+  },
+  "order": {
+    "checkout": "Proceed to checkout",
+    "continue_shopping": "Return to the store and continue shopping",
+    "discard": "Remove all items from the card and discard the order",
+    "save": "Save the order as draft"
+  },
+  "profile": {
+    "save": "Save profile changes",
+    "undo": "Undo all recent profile changes",
+    "edit_password": "Edit your password"
+  },
+  "global": {
+    "ok": "Okay",
+    "cancel": "Cancel",
+    "next": "Next",
+    "previous": "Previous"
+  }
+}

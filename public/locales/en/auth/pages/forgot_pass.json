@@ -1,0 +1,24 @@
+{
+  "title": "Forgot password?",
+  "description": "Enter the email address associated with your account and we'll send you a link to reset your password.",
+  "field": {
+    "email": {
+      "label": "Email",
+      "placeholder": "Enter your email"
+    }
+  },
+  "button": {
+    "submit": "Continue"
+  },
+  "label": {
+    "login": "have account?",
+    "register": "don't have account?"
+  },
+  "link": {
+    "register": "Register",
+    "login": "Login"
+  },
+  "other": {
+    "divider": "OR"
+  }
+}

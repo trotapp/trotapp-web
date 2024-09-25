@@ -1,0 +1,12 @@
+{
+  "shared": {
+    "theme": {
+      "label": "Theme"
+    },
+    "locale": {
+      "en": "English",
+      "es": "Spanish",
+      "fr": "French"
+    }
+  }
+}
