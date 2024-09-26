@@ -38,9 +38,8 @@ i18n
       loadPath: (lng: string, ns: string) => {
         if (ns === 'components') {
           return `/locales/${lng}/components/${ns}.json`;
-        } else {
-          return `/locales/${lng}/${ns}.json`;
         }
+        return `/locales/${lng}/${ns}.json`;
       },
     },
     ns: ['zod', 'message', 'components'],
