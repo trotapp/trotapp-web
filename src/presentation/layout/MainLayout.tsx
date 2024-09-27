@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
-import { Sidebar } from './Sidebar';
-import { Navbar } from './Navbar';
+import  Sidebar  from './Sidebar';
+import Navbar  from './Navbar';
 
 export const MainLayout = () => {
   console.log('Render MainLayout');
@@ -12,7 +12,7 @@ export const MainLayout = () => {
         <div className='bg-primary'>
           <Navbar />
         </div>
-        <div className='relative h-full flex overflow-hidden container'>
+        <div className='relative h-full flex overflow-hidden'>
           <Outlet />
         </div>
       </div>
