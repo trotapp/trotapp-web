@@ -12,7 +12,7 @@ export const MainLayout = () => {
         <div className='bg-primary'>
           <Navbar />
         </div>
-        <div className='relative h-full flex overflow-hidden container'>
+        <div className='relative h-full flex overflow-hidden'>
           <Outlet />
         </div>
       </div>
