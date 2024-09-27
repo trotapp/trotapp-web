@@ -16,11 +16,7 @@ export default {
         '2xl': '1400px',
       },
     },
-    extend: {
-      fontFamily: {
-        jakarta: ['"Plus Jakarta Sans"', 'sans-serif'],
-      },
-    },
+    extend: {},
   },
   plugins: [require('daisyui')],
   daisyui: {
