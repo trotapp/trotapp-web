@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { createBrowserRouter, Navigate } from 'react-router-dom';
 import { MainLayout } from '../layout/MainLayout';
 import {
@@ -11,6 +12,7 @@ import {
   StorePage,
 } from '../pages';
 import { AuthLayout, LoginPage, RegisterPage } from '../auth';
+import ActivitiesPage from '../pages/ActivitiesPage';
 
 export const router = createBrowserRouter([
   /// Auth Routes
@@ -62,6 +64,10 @@ export const router = createBrowserRouter([
         path: '/download',
         element: <DownloadAppPage />,
       },
+      {
+        path:'/activities',
+        element: <ActivitiesPage/>
+      }
     ],
   },
   {
