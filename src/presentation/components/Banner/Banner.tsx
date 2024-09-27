@@ -1,11 +1,38 @@
 import React from "react";
-import bannerImg from "../../../assets/bannerImg.png"
+import bannerImg from "../../../assets/bannerImg.webp";
+import { useEffect, useState, useRef } from "react";
 
 const Banner = () => {
+    const [isLoaded, setIsLoaded] = useState(false);
+    const bannerRef = useRef(null);
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            (entries) => {
+                if (entries[0].isIntersecting) {
+                    setIsLoaded(true);
+                    observer.disconnect(); // Deja de observar una vez que se cargó
+                }
+            },
+            { threshold: 0.1 } // Inicia cuando el 10% del elemento es visible
+        );
+        if (bannerRef.current) {
+            observer.observe(bannerRef.current);
+        }
+        return () => {
+            if (bannerRef.current) observer.unobserve(bannerRef.current);
+        };
+    }, []);
+
     return (
         <div
-            className="min-w-full h-screen flex flex-col justify-center items-center gap-10 bg-cover bg-center"
-            style={{ backgroundImage: `url(${bannerImg})` }}
+            ref={bannerRef}
+            className={`min-w-full h-screen flex flex-col justify-center items-center gap-10 bg-cover bg-center transition-opacity duration-500 ${
+                isLoaded ? "opacity-100" : "opacity-0"
+            }`}
+            style={{
+                backgroundImage: isLoaded ? `url(${bannerImg})` : "none",
+            }}
         >
             {/* Contenedor de Texto */}
             <div className="text-center p-4 text-white">
@@ -30,5 +57,5 @@ const Banner = () => {
     );
 };
 
-
 export default Banner;
+
