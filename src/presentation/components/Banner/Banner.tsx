@@ -18,11 +18,11 @@ const Banner = () => {
             </div>
 
             {/* Contenedor de Botones */}
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 text-white">
-                <button className="btn btn-outline rounded-full border-white text-white px-6 py-2 m-6">
+            <div className="flex flex-col lg:gap-20 sm:flex-row gap-4 sm:gap-8 text-white">
+                <button className="btn btn-outline rounded-full border-white text-white px-6 py-2">
                     Registrarse
                 </button>
-                <button className="btn btn-outline rounded-full border-white text-white px-6 py-2 m-6">
+                <button className="btn btn-outline rounded-full border-white text-white px-6 py-2">
                     Iniciar sesión
                 </button>
             </div>
