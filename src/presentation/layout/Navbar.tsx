@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useNavbarStore } from '../../store/navbar/navbar.store';
 import SpainFlag from '../../assets/spain.svg';
 import UsaFlag from '../../assets/usa.svg';
@@ -18,6 +18,15 @@ const Navbar: React.FC = () => {
   const handleLanguageChange = (lang: 'es' | 'en') => {
     setLanguage(lang);
   };
+
+  useEffect(() => {
+    const savedTheme = localStorage.getItem('theme');
+
+    if (savedTheme) {
+      setTheme(savedTheme as 'light' | 'dark');
+      document.documentElement.setAttribute('data-theme', savedTheme);
+    }
+  }, [setTheme]);
 
   return (
     <div className="navbar lg:px-12 bg-primary justify-between text-primary-content w-screen">
