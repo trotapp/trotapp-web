@@ -1,9 +1,9 @@
 import React from "react";
 import MockupLayout from "./layout/MockupLayout";
 import MockupPhone from "./phone/MockupPhone";
-import qr from "./images/qr.png";
-import phone1 from "./images/phone-1.png";
-import phone2 from "./images/phone-2.png";
+import qr from "./images/qr.webp";
+import phone1 from "./images/phone-1.webp";
+import phone2 from "./images/phone-2.webp";
 
 const Mockup = () => {
   return (
