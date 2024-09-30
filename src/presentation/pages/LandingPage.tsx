@@ -1,9 +1,13 @@
-import Banner from "../components/Banner/Banner";
+import Mockup from "../components/mockup/Mockup";
 
 export const LandingPage = () => {
   return (
-    <div className="w-full h-full">
-      <Banner />
+    <div>
+      <div className="pt-32"></div>
+      <div className="p-2">
+      <Mockup />
+      </div>
+      LandingPage
     </div>
   );
 };
