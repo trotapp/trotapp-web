@@ -1,7 +1,11 @@
-import Banner from "../components/Banner/Banner";
+import Banner from '../components/Banner/Banner';
+import Mockup from '../components/mockup/Mockup';
 
 export const LandingPage = () => {
   return (
-    <Banner/>
-);
+    <div>
+      <Banner />
+      <Mockup />
+    </div>
+  );
 };
