@@ -29,6 +29,6 @@ export const linksMenu: LinkItem[] = [
     {
         key: 'opinions',
         label: 'Opiniones',
-        to: '/opinions',
+        to: '/reviews',
     },
 ];
