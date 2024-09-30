@@ -8,3 +8,13 @@
 body {
     @apply font-jakarta;
 }
+
+.slick-slide > div {
+    margin: 0 5px
+}
+
+.truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
