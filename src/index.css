@@ -6,19 +6,20 @@
 @tailwind utilities;
 
 body {
-  @apply font-jakarta;
+    @apply font-jakarta;
 }
 
 .slick-slide > div {
-  margin: 0 5px;
+    margin: 0 5px
 }
+
 
 .scrolldown-p1,
 .scrolldown-p2 {
   animation-duration: 1.5s;
   animation-name: scrolldown;
   animation-iteration-count: infinite;
-  fill: #ffffff;
+  fill: #FFFFFF;
 }
 
 .scrolldown-p2 {
