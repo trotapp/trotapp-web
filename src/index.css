@@ -9,6 +9,11 @@ body {
     @apply font-jakarta;
 }
 
+.slick-slide > div {
+    margin: 0 5px
+}
+
+
 .scrolldown-p1,
 .scrolldown-p2 {
   animation-duration: 1.5s;
