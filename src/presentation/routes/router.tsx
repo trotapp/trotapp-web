@@ -15,7 +15,6 @@ import { AuthLayout, LoginPage, RegisterPage } from '../auth';
 export const router = createBrowserRouter([
   /// Auth Routes
   {
-    path: 'auth',
     errorElement: <ErrorPage />,
     element: <AuthLayout />,
     children: [
