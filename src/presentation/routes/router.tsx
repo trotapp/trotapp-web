@@ -11,6 +11,7 @@ import {
   StorePage,
 } from '../pages';
 import { AuthLayout, LoginPage, RegisterPage } from '../auth';
+import { SupportPage } from '../pages/Support/SupportPage';
 
 export const router = createBrowserRouter([
   /// Auth Routes
@@ -61,6 +62,10 @@ export const router = createBrowserRouter([
       {
         path: '/download',
         element: <DownloadAppPage />,
+      },
+      {
+        path: '/support',
+        element: <SupportPage />,
       },
     ],
   },
