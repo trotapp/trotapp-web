@@ -8,6 +8,8 @@ export const MainLayout = () => {
       <Sidebar />
       <div className="flex flex-col w-full h-full">
         <div className="bg-primary w-full z-50">
+=======
+        <div className="bg-primary fixed w-full z-30">
           <Navbar />
         </div>
         <div className="w-full">

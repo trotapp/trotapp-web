@@ -16,7 +16,6 @@ import { SupportPage } from '../pages/Support/SupportPage';
 export const router = createBrowserRouter([
   /// Auth Routes
   {
-    path: 'auth',
     errorElement: <ErrorPage />,
     element: <AuthLayout />,
     children: [

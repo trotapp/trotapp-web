@@ -92,6 +92,7 @@ const CarouselReviews = () => {
     ],
   };
 
+  const largeOpinion = opinions.filter(opinion => opinion.comment.length > 200)
   return (
     <div className="w-[400px] md:w-[700px] lg:w-[1200px]">
       <Slider {...settings}>
@@ -122,10 +123,10 @@ const CarouselReviews = () => {
 
               <p
                 className={`px-2 text-balance ${
-                  opinion.comment.length > 100 ? "truncate" : ""
+                  largeOpinion ? "truncate" : ""
                 }`}
               >
-                {opinion.comment}
+                {opinion.comment} 
               </p>
             </div>
           </div>
