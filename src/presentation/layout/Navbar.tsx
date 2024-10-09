@@ -29,6 +29,7 @@ const Navbar: React.FC = () => {
   }, [setTheme]);
 
   return (
+    <div className="navbar fixed top-0 lg:px-12 bg-primary justify-between text-primary-content w-full">
     <div className="navbar xl:px-12 bg-primary justify-between text-primary-content w-screen">
       <div className="gap-4 max-w-max">
         <button className="btn btn-ghost xl:hidden" onClick={toggleSidebar}>
