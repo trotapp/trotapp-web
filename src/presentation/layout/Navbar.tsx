@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
   }, [setTheme]);
 
   return (
-    <div className="navbar lg:px-12 bg-primary justify-between text-primary-content w-screen">
+    <div className="navbar fixed top-0 lg:px-12 bg-primary justify-between text-primary-content w-full">
       <div className="gap-4 max-w-max">
         <button className="btn btn-ghost lg:hidden" onClick={toggleSidebar}>
           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
