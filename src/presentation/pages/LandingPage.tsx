@@ -1,5 +1,6 @@
 import Banner from '../components/Banner/Banner';
 import Mockup from '../components/mockup/Mockup';
+import Benefits from '../components/Benefits/Benefits';
 import Article from '../components/SaleArt/saleArt';
 
 const articleData = [
@@ -85,13 +86,13 @@ const articleData = [
     imgurl: "https://http2.mlstatic.com/D_NQ_NP_740468-MLA44014237844_112020-O.webp"
   }
 ];
-
 export const LandingPage = () => {
   return (
     <div>
       <Banner />
       <Mockup />
       <Article articleData={articleData} />
+      <Benefits />
     </div>
   );
 };

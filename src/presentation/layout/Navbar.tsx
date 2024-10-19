@@ -29,9 +29,9 @@ const Navbar: React.FC = () => {
   }, [setTheme]);
 
   return (
-    <div className="navbar lg:px-12 bg-primary justify-between text-primary-content w-screen">
+    <div className="navbar xl:px-12 bg-primary justify-between text-primary-content w-screen">
       <div className="gap-4 max-w-max">
-        <button className="btn btn-ghost lg:hidden" onClick={toggleSidebar}>
+        <button className="btn btn-ghost xl:hidden" onClick={toggleSidebar}>
           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
           </svg>
@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
 
       </div>
       <div className='flex gap-x-2'>
-        <div className="hidden lg:flex ">
+        <div className="hidden xl:flex ">
           <ul className="menu menu-horizontal text-sm font-normal gap-1">
             {linksMenu.map((link) => (
               <li key={link.key}>
